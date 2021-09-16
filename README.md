@@ -23,9 +23,6 @@ Hope you like it...
 
 <h1></h1>  
 
-
-https://user-images.githubusercontent.com/28729614/133502808-1c661ab0-cb2c-41f1-b2f8-688feacae44d.mp4
-
 ## Dependencies
 
 - [Docker](https://docs.docker.com/)
