@@ -26,3 +26,41 @@ Hope you like it...
 
 https://user-images.githubusercontent.com/28729614/133502808-1c661ab0-cb2c-41f1-b2f8-688feacae44d.mp4
 
+## Dependencies
+
+- [Docker](https://docs.docker.com/)
+
+## Contributing to this project
+
+ **1. Fork the project**
+
+ **2. Clone the fork to your machine**
+
+ ```sh
+ git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git
+ ```
+
+ **3. Set the remote upstream from original repository**
+
+ ```sh
+
+ cd into/cloned/fork-repo
+ git remote add upstream https://github.com/KingOfBugbounty/DockerHunt.git
+ git fetch upstream
+ ```
+ **4. Submitting Pull Requests:**
+
+ * work on your local branch and submit it to your fork master.
+
+ * Create a PR from your branch to the original repository.
+
+
+ **5. Syncing a fork**
+
+ [Follow the steps in this link](https://help.github.com/articles/syncing-a-fork/)
+
+<h5 align="center">
+  <a href="https://raw.githubusercontent.com/KingOfBugbounty/DockerHunt/main/LICENSE">MIT</a>
+  ©
+	KingOfTips
+</h5>
