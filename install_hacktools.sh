@@ -26,6 +26,26 @@ echo "Install Hakrawler"
 go install github.com/hakluke/hakrawler@latest
 sleep 1
 
+echo "Install Httprobe"
+go install github.com/tomnomnom/httprobe@latest
+sleep 1
+
+echo "Install Meg"
+go install github.com/tomnomnom/meg@latest
+sleep 1
+
+echo "Install Haklistgen"
+go install github.com/hakluke/haklistgen@latest
+sleep 1
+
+echo "Install Haktldextract"
+go install github.com/hakluke/haktldextract@latest
+sleep 1
+
+echo "Install Hakcheckurl"
+go install github.com/hakluke/hakcheckurl@latest
+sleep 1
+
 echo "Install tojson"
 go install github.com/tomnomnom/hacks/tojson@latest
 sleep 1
@@ -198,3 +218,8 @@ eval pip3 install -r requirements.txt
 
 eval cd $ToolsPath
 git clone https://github.com/m4ll0k/BBTz
+
+eval cd $ToolsPath
+git clone https://github.com/devanshbatham/ParamSpider
+eval cd ParamSpider
+eval pip3 install -r requirements.txt
