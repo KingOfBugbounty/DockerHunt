@@ -186,6 +186,10 @@ echo "Install puredns"
 go install github.com/d3mondev/puredns/v2@latest
 sleep 1
 
+echo "Install cariddi"
+go install https://github.com/edoardottt/cariddi/@latest
+sleep 1
+
 echo "Install interactsh-client"
 go install github.com/projectdiscovery/interactsh/cmd/interactsh-client@latest
 Sleep 1
