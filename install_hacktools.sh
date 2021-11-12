@@ -124,7 +124,7 @@ sleep 1
 
 echo "Install anew"
 go install github.com/tomnomnom/anew@latest
-sleep1
+sleep 1
 
 echo "Install notify"
 go install github.com/projectdiscovery/notify/cmd/notify@latest
