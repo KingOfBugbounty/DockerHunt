@@ -166,6 +166,11 @@ echo "Install subjs"
 go install github.com/lc/subjs@latest
 sleep 1
 
+echo "Install subjs"
+go install github.com/hiddengearz/jsubfinder@latest
+wget https://raw.githubusercontent.com/ThreatUnkown/jsubfinder/master/.jsf_signatures.yaml && mv .jsf_signatures.yaml ~/.jsf_signatures.yaml
+sleep 1
+
 echo "Install Gxss"
 go install github.com/KathanP19/Gxss@latest
 sleep 1
@@ -200,6 +205,10 @@ sleep 1
 
 echo "Install GetJs"
 go install github.com/003random/getJS@latest
+sleep 1
+
+echo "Install hakrevdns"
+go install github.com/hakluke/hakrevdns@latest
 sleep 1
 
 echo "Cloning all repos and install"
