@@ -120,6 +120,7 @@ sleep 1
 
 echo "Install nuclei"
 go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+nuclei -update
 sleep 1
 
 echo "Install anew"
@@ -140,6 +141,10 @@ sleep 1
 
 echo "Install unfurl"
 go install github.com/tomnomnom/unfurl@latest
+sleep 1
+
+echo "Install shuffledns"
+go install -v github.com/projectdiscovery/shuffledns/cmd/shuffledns@latest
 sleep 1
 
 echo "Install httpx"
@@ -209,6 +214,10 @@ sleep 1
 
 echo "Install hakrevdns"
 go install github.com/hakluke/hakrevdns@latest
+sleep 1
+
+echo "Install dnsgen"
+pip3 install dnsgen
 sleep 1
 
 echo "Cloning all repos and install"
