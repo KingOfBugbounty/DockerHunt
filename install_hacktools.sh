@@ -22,6 +22,18 @@ echo "Install FFF"
 go install github.com/tomnomnom/fff@latest
 sleep 1
 
+echo "Install airixss"
+go install github.com/ferreiraklet/airixss@latest
+sleep 1
+
+echo "Install Freq"
+go install github.com/takshal/freq@latest
+sleep 1
+
+echo "Install Goop"
+go install github.com/deletescape/goop@latest
+sleep 1
+
 echo "Install Hakrawler"
 go install github.com/hakluke/hakrawler@latest
 sleep 1
